@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
             localStorage.setItem('users', JSON.stringify(users));
             alert('Signup successful!');
 
-            window.location.href = 'index.html';
+            window.location.href = 'home.html';
         });
     }
 
